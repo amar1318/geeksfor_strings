@@ -10,7 +10,7 @@ public class RomanToInt {
         int ans = 0;
         int prev = -1;
         for(int i=s.length()-1; i>=0; i--){
-            int curr = symbols.indexOf(s.charAt(i));
+            int curr = symbols.indexOf(s.charAt(i));   //returns the index of symbols
             if(curr<prev){
                 ans -= values[curr];
             }else {
