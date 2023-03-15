@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2dcc96f-5a3e-4385-b14f-9730e707315b" name="Changes" comment="decimal to roman">
-      <change afterPath="$PROJECT_DIR$/src/Level_1/MinDistance.java" afterDir="false" />
+    <list default="true" id="c2dcc96f-5a3e-4385-b14f-9730e707315b" name="Changes" comment="minimum distance between words">
+      <change afterPath="$PROJECT_DIR$/src/Level_1/ParenthesesScore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +39,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/gavadeam/Pictures/javare/projectssss/SimpleProjectSpringBoot&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MinDistance">
-    <configuration name="Helloo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Level_1.Helloo" />
-      <module name="geeksfor_strings" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Level_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ParenthesesScore">
     <configuration name="IntToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Level_1.IntToRoman" />
       <module name="geeksfor_strings" />
@@ -92,6 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParenthesesScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Level_1.ParenthesesScore" />
+      <module name="geeksfor_strings" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Level_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RomanToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Level_1.RomanToInt" />
       <module name="geeksfor_strings" />
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParenthesesScore" />
         <item itemvalue="Application.MinDistance" />
         <item itemvalue="Application.IntToRoman" />
         <item itemvalue="Application.RomanToInt" />
         <item itemvalue="Application.LongestCommonPref" />
-        <item itemvalue="Application.Helloo" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678678045072</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="minimum distance between words">
+      <created>1678679952067</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678679952067</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +221,7 @@
     <MESSAGE value="Longest Common Prefix" />
     <MESSAGE value="Roman to decimal" />
     <MESSAGE value="decimal to roman" />
-    <option name="LAST_COMMIT_MESSAGE" value="decimal to roman" />
+    <MESSAGE value="minimum distance between words" />
+    <option name="LAST_COMMIT_MESSAGE" value="minimum distance between words" />
   </component>
 </project>
