@@ -8,16 +8,15 @@ import java.util.HashMap;
 public class IsIsomorphic {
     static boolean isIsomorphic(String s1, String s2){
         if (s1.length() != s2.length()) return false;
-        HashMap<Character, Character> charCount = new HashMap();
-        //char c = 'a';
+        HashMap<Character, Character> map = new HashMap();
         for (int i = 0; i < s1.length(); i++) {
-            if (charCount.containsKey(s1.charAt(i))) {
-               char c = charCount.get(s1.charAt(i));
+            if (map.containsKey(s1.charAt(i))) {
+               char c = map.get(s1.charAt(i));
                 if (c != s2.charAt(i))
                     return false;
             }
-            else if (!charCount.containsValue(s2.charAt(i))) {
-                charCount.put(s1.charAt(i), s2.charAt(i));
+            else if (!map.containsValue(s2.charAt(i))) {
+                map.put(s1.charAt(i), s2.charAt(i));
             }
             else {
                 return false;
