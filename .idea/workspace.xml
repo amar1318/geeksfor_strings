@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2dcc96f-5a3e-4385-b14f-9730e707315b" name="Changes" comment="minimum distance between words">
-      <change afterPath="$PROJECT_DIR$/src/Level_1/ParenthesesScore.java" afterDir="false" />
+    <list default="true" id="c2dcc96f-5a3e-4385-b14f-9730e707315b" name="Changes" comment="score of parentheses">
+      <change afterPath="$PROJECT_DIR$/src/Level_1/IsIsomorphic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/gavadeam/Pictures/javare/projectssss/SimpleProjectSpringBoot&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ParenthesesScore">
+  <component name="RunManager" selected="Application.IsIsomorphic">
     <configuration name="IntToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Level_1.IntToRoman" />
       <module name="geeksfor_strings" />
@@ -53,8 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Level_1.LongestCommonPref" />
+    <configuration name="IsIsomorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Level_1.IsIsomorphic" />
       <module name="geeksfor_strings" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsIsomorphic" />
         <item itemvalue="Application.ParenthesesScore" />
         <item itemvalue="Application.MinDistance" />
         <item itemvalue="Application.IntToRoman" />
         <item itemvalue="Application.RomanToInt" />
-        <item itemvalue="Application.LongestCommonPref" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678679952067</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="score of parentheses">
+      <created>1678883045896</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678883045896</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +229,7 @@
     <MESSAGE value="Roman to decimal" />
     <MESSAGE value="decimal to roman" />
     <MESSAGE value="minimum distance between words" />
-    <option name="LAST_COMMIT_MESSAGE" value="minimum distance between words" />
+    <MESSAGE value="score of parentheses" />
+    <option name="LAST_COMMIT_MESSAGE" value="score of parentheses" />
   </component>
 </project>
